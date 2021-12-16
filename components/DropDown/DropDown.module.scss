@@ -1,0 +1,22 @@
+.dropdown {
+  &:before {
+    display: none;
+  }
+  &:after {
+    display: none;
+  }
+  border: 0;
+  background-color: white;
+  outline: none;
+  & > div:focus {
+    background-color: white;
+  }
+  & input {
+    border: 0;
+    background-color: white;
+    outline: none;
+  }
+  &_container {
+    width: 100%;
+  }
+}
